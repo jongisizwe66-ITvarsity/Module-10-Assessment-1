@@ -2,7 +2,7 @@
 document.getElementById('submitData').addEventListener('click',submitForm);
 
 function getText(){
-    fetch('http://mysite.itvarsity.org/api/fetch/get-data/')
+    fetch('https://mysite.itvarsity.org/api/fetch/get-data/')
     .then(function(response){
         return response.text();
     })
