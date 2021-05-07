@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.main{
+    padding: 15px;
+}
+.main h1{
+   margin-bottom: 8px;
+}
+
+button{
+    margin-bottom: 12px;
+    width: 140px;
+}
+form{
+    background-color: rgb(198, 205, 211);
+    width: 300px;
+    border-radius: 6px;
+    padding-left: 7px;
+}
+label, input{
+    margin: 6px 2px 4px 0px;
+}
+
+#submitData{
+    margin-top: 3px;
+    width: 70px;
+}
+
+#output{
+    margin-top: 20px;
+}
+
+#output h2{
+    margin-bottom: 12px;
+}
+
+#output h4{
+    margin-top: 10px;
+}
+
+#output span{
+    margin-left: 10px;
+}
