@@ -7,7 +7,7 @@ function getText(){
         return response.text();
     })
     .then(function(data){
-        document.querySelector('p').innerHTML = data;
+        document.querySelector("p").innerHTML = data;
     })
 }
 
@@ -30,7 +30,7 @@ function getList(){
                      </span>
                      `;
        }
-        document.getElementById('output').innerHTML = outPut;
+        document.getElementById("output").innerHTML = outPut;
     })
 }
 
@@ -48,6 +48,6 @@ function submitForm(e){
        return response.text();
    })
    .then(function(data){
-       document.querySelector('p').innerHTML = data;
+       document.querySelector("p").innerHTML = data;
    })
 }
